@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -21,20 +19,20 @@ img {
 }
 
 .nav__name{
-	
-	width: 100%;
-	margin: 0 auto;
-	background-color: black;
+  
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
   size: 20px;
 }
 
 
 #logoup{
-	color: white;
-	 width: 20%;
-  	margin: 0 auto;
-  	text-align: center;
-  	font-size: 35px;
+  color: white;
+   width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 35px;
 }
 
 
@@ -42,13 +40,13 @@ img {
   width: 20%;
   margin: 0 auto;
   max-width: 1320px;
-  text-align: center;
+  
 }
 
 .row{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -73,8 +71,8 @@ header {
 }
 
 .nav__list {
-  	list-style: none;
-  	display: flex;
+    list-style: none;
+    display: flex;
 }
 
 .nav-item {
@@ -94,14 +92,14 @@ header {
 
 /*banner*/
 .imgtop{
-	display: flex;
+  display: flex;
   max-width: 100%;
-	justify-content: center;
+  justify-content: center;
 }
 
 .yerba-mate{
   height: 900px;
-	width:100%;
+  width:100%;
   
 }
 /*finbanner*/
@@ -155,16 +153,16 @@ transition: all 0.5s;
 
 
 .nuevosproductos{
-	display: flex; 
-	justify-content: space-around;
+  display: flex; 
+  justify-content: space-around;
   margin: auto;
-	align-items: center;
-	width: 15%;
+  align-items: center;
+  width: 15%;
 }
 
 /*texto nuevos productos*/
 #text-dos{
-	width: 20%;
+  width: 20%;
   margin: 0 auto;
   max-width: 1320px;
   text-align: center;
@@ -208,90 +206,9 @@ transition: all 0.5s;
 }
 
   
-/*footer*/
-
-footer{
-  background-color: black;
-  text-align: center;
-}
-
-footer{
-  max-width: 100%;
-  width: 100%;
-  
-}
-
-.icono{
-
-  width: 10px;
-}
-
-.contenedor-redes{
-
-  width: 30px;
-}
 
 
 
-
-
-h3{
-  color: white;
-}
-
-#logolow{
-  color: white;
-  width: 20%;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 35px;
-}
-
-#logofooter{
-  margin: 0 auto;
-  padding: 0;
-  width: 2%;
-  display: flex;
-  justify-content: center;
-}
-
-
-@media (max-width: 992px) {
-  .yerba-mate{
-    height: 400px;
-    width:100%;
-    
-  }
-
-
-  #logolow{
-
-   font-size:28px;
-   width: 100%;
-
-  }
-
-  .palabra{
-
-    width: 100%;
-
-    font-size: 10px;
-  }
-
-  
-  .redes{
-    width: 40%;
-      }
-
-  .txt-compartir{
-
-    font-size: 12px;
-    width: 100%;
-  }
-
- 
-
-}
 /*contacto*/
 
 .contactanos{
@@ -416,6 +333,8 @@ aside h2 {
 .text-elaboracion-pasos{
 
   text-align: center;
+font-size: 44px;
+
 }
 
 p{
@@ -426,18 +345,7 @@ p{
 }
 
 
-@media (max-width: 992px) {
-  
-  .elaboracion{
-    width: 500px;
-  }
 
-  .text-elaboracion-pasos{
-
-  text-align: center;
-}
-
-  }
 
 
   /*nosotros*/
@@ -555,3 +463,64 @@ background: radial-gradient(#757575,#212121);
 .boton-comprar:focus{
   outline-style: solid;
 }
+
+
+
+@media (max-width: 992px) {
+  .yerba-mate{
+    height: 400px;
+    width:100%;
+    
+  }
+
+
+  #logolow{
+
+   font-size:28px;
+   width: 100%;
+
+  }
+
+  .palabra{
+
+    width: 100%;
+
+    font-size: 10px;
+  }
+
+  
+  .redes{
+    width: 40%;
+      }
+
+  .txt-compartir{
+
+    font-size: 12px;
+    width: 100%;
+  }
+
+ 
+
+}
+
+@media (max-width: 992px) {
+  
+  .elaboracion{
+    width: 500px;
+  }
+
+  .text-elaboracion-pasos{
+
+  text-align: center;
+}
+
+.logomate{
+  
+  width: 5%;
+}
+
+.img-logo{
+
+  width: 30%;
+}
+  }
