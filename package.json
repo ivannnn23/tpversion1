@@ -1,7 +1,7 @@
 {
   "name": "trabajo-sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "mi primer pagina web relacionada a todo lo que sea relacionado con el mate, principalmente venta de productos",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss/style.scss css/style.css"
