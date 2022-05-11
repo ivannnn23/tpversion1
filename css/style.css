@@ -11,13 +11,6 @@ body {
   font-family: "roboto", sans-serif;
 }
 
-#carouselExampleIndicators {
-  width: 50%;
-  Width: 900px;
-  margin: auto;
-  padding: 1%;
-}
-
 img {
   max-width: 100%;
   height: 200%;
