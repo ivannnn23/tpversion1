@@ -8,16 +8,47 @@
   @import "globales";
 
 
-  /*ANIDACION */
+  /*ANIDACION FILA 154 */
+
+  
+
+  /*MIXIN */
+  @mixin sizes($maxwidth, $height) {
+    max-width: $maxwidth;
+    height: $height;
+  }
+
+  img{
+    @include sizes(100%, 200%);
+  }
+
+  /*MAP-GET */
+  $estilos:(
+  mostrar: flex,
+  direccion: column,
+  borde: 1px solid black,
+  radio: 1rem,
+  relleno: 2rem
+);
+
+.productos-venta {
+  display: map-get($estilos, mostrar);
+  flex-direction: map-get($estilos, direccion);
+  border: map-get($estilos, borde);
+  border-radius: map-get($estilos, radio);
+  padding: map-get($estilos, relleno);
+}
+
+
+/*EXTEND FILA 310 */
+
+
 
   body {
     font-family: "roboto", sans-serif;
   }
   
-  img {
-    max-width: 100%;
-    height: 200%
-  }
+
   
   .nav__name{
     
@@ -275,9 +306,24 @@
       float: right;
       margin-right: 3em;
   }
-  #enviar, #borrar {
-      margin: 0.5em;
+  
+  /*EXTEND */
+  .botonform{
+    margin: 0.5em;
+    border: 0px;
+    width: 100%;
   }
+  
+  .botonform--enviarform{
+    @extend .botonform;
+    background-color: #c5e1a5;
+  }
+  
+  .botonform--reiniciarform{
+    @extend .botonform;
+    background-color: #ef9a9a;
+  }
+
   aside h2 {
       text-align: center;
   }
@@ -461,14 +507,7 @@
     list-style: none;
   }
   
-  .productos-venta {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    border-radius: 1rem;
-    padding: 2rem;
-    
-  }
+
   
   .precio{
     text-align: center;

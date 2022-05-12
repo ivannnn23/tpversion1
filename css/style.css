@@ -6,14 +6,25 @@
   box-sizing: border-box;
 }
 
-/*ANIDACION */
-body {
-  font-family: "roboto", sans-serif;
-}
-
+/*ANIDACION FILA 154 */
+/*MIXIN */
 img {
   max-width: 100%;
   height: 200%;
+}
+
+/*MAP-GET */
+.productos-venta {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+/*EXTEND FILA 310 */
+body {
+  font-family: "roboto", sans-serif;
 }
 
 .nav__name {
@@ -249,8 +260,19 @@ form input, form textarea, form select {
   margin-right: 3em;
 }
 
-#enviar, #borrar {
+/*EXTEND */
+.botonform, .botonform--reiniciarform, .botonform--enviarform {
   margin: 0.5em;
+  border: 0px;
+  width: 100%;
+}
+
+.botonform--enviarform {
+  background-color: #c5e1a5;
+}
+
+.botonform--reiniciarform {
+  background-color: #ef9a9a;
 }
 
 aside h2 {
@@ -412,14 +434,6 @@ p {
 
 .precio-venta {
   list-style: none;
-}
-
-.productos-venta {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  border-radius: 1rem;
-  padding: 2rem;
 }
 
 .precio {
