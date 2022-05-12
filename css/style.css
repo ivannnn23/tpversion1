@@ -456,4 +456,28 @@ p {
   outline-style: solid;
 }
 
+@media (min-width: 300px) {
+  #text-dos {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .txt-exp-clientes {
+    text-align: center;
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .fila {
+    font-size: 12px;
+  }
+
+  .txt-compartir {
+    font-size: 25px;
+    margin: 30px 0px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
